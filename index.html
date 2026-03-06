@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ШАПКА -->
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">
+                <img src="images/logo1.svg" class="faculty-logo" alt="Логотип">
+            </div>
+            <nav class="nav">
+                <a href="#about">Обо мне</a>
+                <a href="#projects">Проекты</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ОСНОВНОЙ КОНТЕНТ (всё, кроме шапки и футера) -->
+    <main class="main-content">
+        
+        <!-- ИНТРО -->
+        <section class="intro">
+            <div class="container">
+                <h1 class="intro-name">Карина Скапутова</h1>
+                <p class="intro-label">участник программы ТОП-ИТ</p>
+            </div>
+        </section>
+
+        <!-- О СЕБЕ + МОТИВАЦИЯ -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">О себе</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Студентка первого курса направления "Программная инженерия". Учусь, пробую, ошибаюсь и снова учусь.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/mt.jpg" alt="Моё фото" class="about-photo">
+                    </div>
+                </div>
+
+                <div class="motivation-letter">
+                    <h3 class="motivation-title">Моя мотивация</h3>
+                    <div class="motivation-text">
+                        <p>Я хочу попасть на программу ТОП-ИТ, поскольку мне нравится идея того, что моя учёба будет основана на реальных задачах от компаний-партнёров. Это возможность сразу погрузиться в настоящую разработку и понять, как всё устроено изнутри. Я понимаю, что программа потребует много сил, и готова к высокой нагрузке, поскольку это будет крупная инвестиция в моё будущее.</p>
+                        <p>Несмотря на первый курс, у меня уже есть реальный опыт — за два месяца мы с моей командой разработали мобильное приложение для учебного хакатона. Это был мой первый серьёзный командный проект, и я поняла, что хочу развиваться именно в таком формате. Дальше я хочу расти в заряженном коллективе и работать под руководством опытных наставников от компаний-партнёров.</p>
+                    </div>
+                    <h3 class="motivation-title">Мое будущее в IT</h3>
+                    <div class="motivation-text">
+                        <p>В будущем я вижу себя разработчиком, который работает над полезными продуктами в сильной команде. Хочу вырасти до специалиста, который может решать сложные задачи и отвечать за результат. Я верю, что программа ТОП-ИТ даст хороший старт и правильное окружение для такого роста.</p>
+                        <p>При идеальном раскладе — уже через пару лет уверенно пройти собеседование в IT-компанию и продолжать расти в профессиональной среде.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ПРОЕКТ -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Мои проекты</h2>
+                <div class="project-showcase">
+                    <h3 class="project-subtitle-large">Мобильное приложение "Планировщик задач"</h3>
+                    <div class="screenshot-grid-small">
+                        <div class="screenshot-item">
+                            <img src="images/sc1.jpg" alt="Скриншот 1">
+                        </div>
+                        <div class="screenshot-item">
+                            <img src="images/sc2.jpg" alt="Скриншот 2">
+                        </div>
+                        <div class="screenshot-item">
+                            <img src="images/sc3.jpg" alt="Скриншот 3">
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h4>О проекте:</h4>
+                        <p>Мобильный планировщик задач с удобным интерфейсом. Разрабатывался в течение двух месяцев для учебного хакатона. Включает дизайн, мобильный клиент и серверную часть.</p>
+                        <h4>Моя роль:</h4>
+                        <p>Backend-разработчик: разработка серверной части, написание API, подключение базы данных.</p>
+                        <h4>Технологии:</h4>
+                        <p>Flutter (мобильный клиент), Node.js (сервер), JavaScript, MongoDB (база данных), Figma (дизайн).</p>
+                        <h4>Скриншоты:</h4>
+                        <p>На скриншотах показаны: главный экран, экран входа, профиль пользователя.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- КОНТАКТЫ -->
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <h2 class="section-title">Контакты</h2>
+                <div class="contacts-links">
+                    <a href="https://t.me/keliamis" class="contact-link">Telegram</a>
+                    <a href="https://github.com/keliamis" class="contact-link">GitHub</a>
+                    <a href="mailto:skaputovak@gmail.com" class="contact-link">Email</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ФУТЕР -->
+    <footer class="footer">
+        <p>© 2026 Скапутова Карина</p>
+    </footer>
+
+</body>
+</html>
